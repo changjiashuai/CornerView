@@ -14,7 +14,7 @@ public class TestJavaActivity extends AppCompatActivity {
 
         cornerView.setTriangleColor(getResources().getColor(R.color.colorPrimaryDark));
         cornerView.setTriangleSideA(ViewExtKt.dp2px(cornerView, 20f));
-        cornerView.setTriangleSideB(ViewExtKt.dp2px(cornerView, 20f));
+        cornerView.setTriangleSideB(ViewExtKt.dp2px(cornerView, 10f));
 
         cornerView.setBorderColor(getResources().getColor(R.color.colorPrimaryDark));
         cornerView.setBorderWidth(ViewExtKt.dp2px(cornerView, 8f));

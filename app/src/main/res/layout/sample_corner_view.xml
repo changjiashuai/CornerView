@@ -103,8 +103,8 @@
             app:borderColor="@color/colorPrimary"
             app:borderWidth="8dp"
             app:triangleColor="@color/colorAccent"
-            app:triangleSideA="40dp"
-            app:triangleSideB="20dp">
+            app:triangleSideA="20dp"
+            app:triangleSideB="10dp">
 
             <TextView
                 android:layout_width="wrap_content"

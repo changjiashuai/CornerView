@@ -106,14 +106,10 @@ class CornerView : LinearLayout {
 
             mTriangleColor =
                     attributes.getColor(R.styleable.CornerView_triangleColor, mTriangleColor)
-            mTriangleSideA = attributes.getDimension(
-                R.styleable.CornerView_triangleSideA,
-                mTriangleSideA
-            )
-            mTriangleSideA = attributes.getDimension(
-                R.styleable.CornerView_triangleSideB,
-                mTriangleSideB
-            )
+            mTriangleSideA =
+                    attributes.getDimension(R.styleable.CornerView_triangleSideA, mTriangleSideA)
+            mTriangleSideB =
+                    attributes.getDimension(R.styleable.CornerView_triangleSideB, mTriangleSideB)
             attributes.recycle()
         }
 
@@ -135,15 +131,15 @@ class CornerView : LinearLayout {
 
         drawBorderLine(canvas)
 
+        //根据边长生成卷起点
         mCurl.x = mWidth - mTriangleSideA
         mCurl.y = mHeight - mTriangleSideB
 
         calCorner()
         calPoints()
 
-        if (mFooter == Corner.NONE) {
-            return
-        }
+        if (mFooter == Corner.NONE) return
+
         transPath()
         canvas.clipPath(mAllPath)
         canvas.drawColor(Color.WHITE)
