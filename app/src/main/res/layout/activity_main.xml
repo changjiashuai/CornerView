@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.changjiashuai.cornerview.MainActivity">
+
+    <Button
+        android:onClick="testKotlin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Kotlin"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:onClick="testJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Java"
+        android:textAllCaps="false" />
+
+</LinearLayout>

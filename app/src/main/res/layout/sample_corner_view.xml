@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="默认方式：" />
+
+        <com.changjiashuai.cornerview.CornerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/azalea"
+            android:minWidth="200dp"
+            android:orientation="vertical"
+            android:paddingBottom="32dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="16dp"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="120dp"
+                android:text="@string/v1_1_pptx"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/size"
+                android:textColor="@color/shuttle_gray"
+                android:textSize="18sp" />
+        </com.changjiashuai.cornerview.CornerView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="代码设置方式：" />
+
+        <com.changjiashuai.cornerview.CornerView
+            android:id="@+id/cornerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/azalea"
+            android:minWidth="200dp"
+            android:orientation="vertical"
+            android:paddingBottom="32dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="16dp"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="120dp"
+                android:text="@string/v1_1_pptx"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/size"
+                android:textColor="@color/shuttle_gray"
+                android:textSize="18sp" />
+        </com.changjiashuai.cornerview.CornerView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="XML设置方式：" />
+
+        <com.changjiashuai.cornerview.CornerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/azalea"
+            android:minWidth="200dp"
+            android:orientation="vertical"
+            android:paddingBottom="32dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="16dp"
+            android:paddingTop="32dp"
+            app:borderColor="@color/colorPrimary"
+            app:borderWidth="8dp"
+            app:triangleColor="@color/colorAccent"
+            app:triangleSideA="40dp"
+            app:triangleSideB="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="120dp"
+                android:text="@string/v1_1_pptx"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/size"
+                android:textColor="@color/shuttle_gray"
+                android:textSize="18sp" />
+        </com.changjiashuai.cornerview.CornerView>
+    </LinearLayout>
+</ScrollView>

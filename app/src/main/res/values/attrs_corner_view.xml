@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="CornerView">
+
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+
+        <attr name="triangleColor" format="color" />
+        <attr name="triangleSideA" format="dimension" />
+        <attr name="triangleSideB" format="dimension" />
+    </declare-styleable>
+</resources>
